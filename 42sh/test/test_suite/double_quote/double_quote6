@@ -1,0 +1,1 @@
+aa=bb; cc=dd; ee=ff; echo "$aa hey ${cc+abc} oh ${dd:?abc} ${ee:-hey}"

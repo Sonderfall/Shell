@@ -1,0 +1,34 @@
+.TH Check 1 "17 November 2012"
+.SH NAME
+\fBCheck\fP - Test suite for 42sh
+.SH SYNOPSIS
+\fBcheck [options] [categories]\fP
+.SH DESCRIPTION
+Check is a test suite wich serves to test our 42sh. It checks if there is any difference between outputs of bash and 42sh.
+
+You can launch the test suite with:
+By default, it executes the test suite on all categories, and displays one line per test. Each line describe the test by giving the category of the test, by outputing the test, and if there is a difference between bash and 42sh. If there is a difference, it also outputs the difference between bash and 42sh. At the end of the test suite, it will output the following statistics: 
+  The number of successful tests on the total number of tests for each and all categories;
+  The percentage of successful tests for each and all categories;
+  All this can be modified by using the different options following.
+	
+.SH OPTIONS
+.TP
+\fB-c and -categories\fP
+    Display the categories and percentage of successful tests for each of them without displaying the tests.
+.TP
+\fB-e <category>+ and -select <category>+\fP
+    Execute the moulinette only on the category/ies passed in argument.
+.TP
+\fB-f and -final\fP
+    Display only the percentage of successful tests for all the tests.
+.TP
+\fB-n and -number\fP
+    Display the number of successful tests on the total number of tests instead of percentage.
+.TP
+\fB-a and -all\fP
+    Execute the test suite on all categories (option by default if none is chosen).
+.TP
+\fB-t <time> and -timeout <time>\fP
+    Change the default timeout (2 seconds) of the check program to 'time'.
+    'time' must be an integer superior or equal to 1. If it is an integer inferior to 1, it will use the default timeout.  

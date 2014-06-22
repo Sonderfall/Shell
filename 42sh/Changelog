@@ -1,0 +1,1655 @@
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Dec 2 09:28:31 2012 +0100
+    fix ~ for other users
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Dec 2 08:52:03 2012 +0100
+    Changelog up to date
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Dec 1 20:14:30 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Dec 1 20:14:08 2012 +0100
+    fix builtin echo
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 20:11:01 2012 +0100
+    Fixed segfault ${} case
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 19:54:28 2012 +0100
+    fix error when variable was NULL in echo
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 19:51:01 2012 +0100
+    ChangeLog to Changelog
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 19:46:03 2012 +0100
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 19:45:20 2012 +0100
+    added global variable for the current command
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 19:41:33 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 19:41:21 2012 +0100
+    All options of variable ok, and no leaks from variables
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 19:35:27 2012 +0100
+    fix memory problem
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 19:28:08 2012 +0100
+    added and fix builtin echo
+
+Author: Valentin <valentin@valentin-Satellite-L655.(none)>
+Date:   Sat Dec 1 17:46:48 2012 +0100
+
+Author: Valentin <valentin@valentin-Satellite-L655.(none)>
+Date:   Sat Dec 1 17:45:53 2012 +0100
+    42sh man page
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 17:39:51 2012 +0100
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 17:39:41 2012 +0100
+    fix memory leak
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 17:39:30 2012 +0100
+    fixed leaks in itoa
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 17:28:39 2012 +0100
+    handle not ended quote
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 17:23:41 2012 +0100
+    fix leak in itoa
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 17:10:34 2012 +0100
+    version 1.0 added
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 17:01:28 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 17:01:04 2012 +0100
+    added $?, variable
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 16:01:57 2012 +0100
+    optimized function
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 15:55:33 2012 +0100
+    added test double quote
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 15:53:36 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 15:52:50 2012 +0100
+    added variable : ok
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 14:57:45 2012 +0100
+    fix coding style error
+
+Author: Valentin <valentin@valentin-Satellite-L655.(none)>
+Date:   Sat Dec 1 14:29:43 2012 +0100
+    push for pull
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 14:07:49 2012 +0100
+    remove include on non existing file
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Sat Dec 1 14:00:59 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 12:55:32 2012 +0100
+    Fixed coding style except the too long functions
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 12:44:32 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 12:43:38 2012 +0100
+    Fixed : ast-printer, now execute correctly the command
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Dec 1 12:17:32 2012 +0100
+    added comment on functions for the main
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Dec 1 12:03:33 2012 +0100
+    fix tilde for OLDPWD
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Dec 1 12:02:34 2012 +0100
+    fixing builtin echo
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Dec 1 11:50:21 2012 +0100
+    remove unsused header
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 11:48:04 2012 +0100
+    Fixed leaks in builtin cd : not using exit function anymore
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Dec 1 11:46:41 2012 +0100
+    modify builtin cd so it include the change made on env_var OLDPWD
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 09:29:50 2012 +0100
+    change function name
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 09:18:29 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 09:15:25 2012 +0100
+    added init_var.c
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 09:10:55 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 09:08:54 2012 +0100
+    change g_global
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 09:07:54 2012 +0100
+    remove modif on redirection : still not workinig ...
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Dec 1 05:53:35 2012 +0100
+    changelog add
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Dec 1 03:58:36 2012 +0100
+    man
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Dec 1 03:44:46 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Dec 1 03:38:42 2012 +0100
+    update man
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Sat Dec 1 03:35:52 2012 +0100
+    optimised Makefile
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Sat Dec 1 03:33:27 2012 +0100
+    Modified Changelog
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Dec 1 03:01:36 2012 +0100
+    pull for push WIP
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Dec 1 02:59:45 2012 +0100
+    update builtins, segv, test, readme, todo
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Sat Dec 1 02:51:27 2012 +0100
+    clean test folder
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Sat Dec 1 02:49:07 2012 +0100
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Sat Dec 1 02:46:26 2012 +0100
+    delete Builtin folder
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Sat Dec 1 02:43:09 2012 +0100
+    deleted personnal Check folder
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Dec 1 01:26:27 2012 +0100
+    to midify redirection
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 30 23:40:22 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 30 23:39:39 2012 +0100
+    fixed segfault in builtins.c
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 30 23:36:54 2012 +0100
+    change head of list into global value
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Fri Nov 30 22:25:40 2012 +0100
+    Fix norm () in returns
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Fri Nov 30 22:21:43 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Fri Nov 30 22:21:13 2012 +0100
+    push for pull WIP
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Fri Nov 30 22:17:52 2012 +0100
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Fri Nov 30 22:15:48 2012 +0100
+    Fix pipe when running the binary
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 30 20:48:07 2012 +0100
+    fix moulinette bug test
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Fri Nov 30 20:24:40 2012 +0100
+    fix export + add exit test
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 30 19:32:15 2012 +0100
+    Fix : now exit after forking for a command
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 30 18:28:25 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 30 18:25:08 2012 +0100
+    Conflicts:
+    	src/substitution/var_sub.c
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Fri Nov 30 15:14:46 2012 +0100
+    Fix Readline special characters random appearance
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 30 13:58:48 2012 +0100
+    more test for exit and pipeline
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Fri Nov 30 13:38:16 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Fri Nov 30 09:42:12 2012 +0100
+    Readline fix try
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 30 09:18:53 2012 +0100
+    and or test
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 30 09:05:31 2012 +0100
+    more test for echo
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 17:57:29 2012 +0100
+    added : alias structure (add/update, remove, and get(without infinite loop))
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 29 17:56:20 2012 +0100
+    v0.8 without norme fault
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 17:34:32 2012 +0100
+    fix : some coding style (too long function and global var not fixed)
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 17:10:04 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 17:08:39 2012 +0100
+    updated variable
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 17:04:42 2012 +0100
+    Modified Readline
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 16:06:45 2012 +0100
+    fix variable : more free than alloc -> not amymore
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 13:13:05 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 13:10:07 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 13:09:44 2012 +0100
+    Fixed the not desired include of .git in the tarball
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 29 11:33:24 2012 +0100
+    v08
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 29 11:29:18 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 29 11:27:59 2012 +0100
+    v0.8
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 29 11:13:32 2012 +0100
+    v0.8
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 11:04:49 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 11:04:30 2012 +0100
+    Fix coding style comments
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Thu Nov 29 10:52:54 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 10:52:44 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 10:51:47 2012 +0100
+    Improve parser_options
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 10:51:41 2012 +0100
+    added some tests
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Thu Nov 29 10:30:16 2012 +0100
+    ChangeLog
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 10:29:22 2012 +0100
+    added some tests
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Thu Nov 29 10:06:00 2012 +0100
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Thu Nov 29 10:05:37 2012 +0100
+    more test on pipeline, condition, loop
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 09:52:12 2012 +0100
+    added some tests
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 09:50:55 2012 +0100
+    modified main.c for ast print
+
+Author: pierra_j <pierra_j@epita.fr>
+Date:   Thu Nov 29 09:39:17 2012 +0100
+    test for pipeline, and_or and conditions
+
+Author: Valentin <valentin@valentin-Satellite-L655.(none)>
+Date:   Thu Nov 29 08:14:12 2012 +0100
+    update builtins
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 02:29:20 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 29 02:28:46 2012 +0100
+    Fixed a part of the Readline(execution of the commands)
+
+Author: Valentin <valentin@valentin-Satellite-L655.(none)>
+Date:   Thu Nov 29 01:54:53 2012 +0100
+    fix builtins
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 00:24:10 2012 +0100
+    updated TODO
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 00:19:48 2012 +0100
+    Updated readme todo
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 29 00:07:09 2012 +0100
+    Conflicts:
+    	src/main/main.c
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 23:58:40 2012 +0100
+    FIX : Coding style
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 28 22:58:31 2012 +0100
+    added builtins
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 28 22:55:46 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 28 22:55:25 2012 +0100
+    Insert readline
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 22:54:19 2012 +0100
+    fix a ternaire coding style
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 22:49:35 2012 +0100
+    modified prompt.c : compared to h -> d
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 22:24:14 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 22:22:55 2012 +0100
+    fix some segfault and error substitution of double quoting
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 28 22:10:17 2012 +0100
+    [READLINE] Finish Readline
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 22:03:20 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 22:02:44 2012 +0100
+    fix promt and added a default value
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 21:46:02 2012 +0100
+    added comments in var_sub.h
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 21:41:09 2012 +0100
+    fix variables : no leaks and no segfault
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 21:21:02 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 28 21:04:24 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 20:56:02 2012 +0100
+    fix memory leaks
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 19:40:51 2012 +0100
+    Fix coding style : removes parenthesis after return
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 19:32:00 2012 +0100
+    fix coding style : for(.. -> for (..
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 19:21:52 2012 +0100
+    fix some coding style
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 18:56:34 2012 +0100
+    added $0 variable
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 18:50:22 2012 +0100
+    fix some coding style error
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 18:34:59 2012 +0100
+    substitution of dquote might be ok, need some test
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 18:28:16 2012 +0100
+    fix execution redirection
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 18:15:56 2012 +0100
+    fix bug with parsing redirection
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 28 15:31:01 2012 +0100
+    fix traling spaces
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 01:51:03 2012 +0100
+    fix problem with makefile
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 28 01:46:29 2012 +0100
+    fix the small mistake on the check
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 27 19:57:28 2012 +0100
+    Fixed some segfault
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 27 16:58:23 2012 +0100
+    Lexing the dollar : ~Ok
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Tue Nov 27 15:37:03 2012 +0100
+    fix bugs + leaks builtins
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 27 15:10:51 2012 +0100
+    echo.c : remove trailing spaces
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 27 15:10:03 2012 +0100
+    added function to remove and free the nodes
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 27 14:26:28 2012 +0100
+    Added : comments in my_int.h and var_sub.h
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 27 14:16:20 2012 +0100
+    Getting variable : ~ok, need tests
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 27 13:09:08 2012 +0100
+    renamed variable -> var_sub
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 27 00:08:56 2012 +0100
+    building source
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 27 00:08:34 2012 +0100
+    pull from WIP
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 26 23:39:30 2012 +0100
+    working on arithmetic evaluation
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 26 20:19:33 2012 +0100
+    added : beginning of variable - and quoting (almost done)
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Mon Nov 26 20:13:16 2012 +0100
+    cd, exit, export builtins
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 26 15:02:11 2012 +0100
+    modified prompt : now just display ps1 by default (and not ps1 @ ps2)
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 24 23:11:05 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 23 21:16:06 2012 +0100
+    added a NULL at the end of the string table for the exec
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 23 19:10:28 2012 +0100
+    finish advance prompt
+
+Author: Maxime 'Crazadax' WIPF <maxime.wipf@epita.fr>
+Date:   Fri Nov 23 18:17:49 2012 +0100
+    [Moulinette] delete 'while'2
+
+Author: Maxime 'Crazadax' WIPF <maxime.wipf@epita.fr>
+Date:   Fri Nov 23 18:15:42 2012 +0100
+    [All][0.8] Builtin alias modification
+
+Author: Maxime 'Crazadax' WIPF <maxime.wipf@epita.fr>
+Date:   Fri Nov 23 18:01:55 2012 +0100
+    [All][0.8] builtin_alias (without arg or with '-p', fix last args later
+
+Author: Maxime 'Crazadax' WIPF <maxime.wipf@epita.fr>
+Date:   Fri Nov 23 18:00:58 2012 +0100
+    [All][0.8] builtin_alias (without arg or with '-p', fix last args later
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 23 17:27:10 2012 +0100
+    replace the ast-print with a update one
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 23 17:24:42 2012 +0100
+    fix problem on do_command_group
+
+Author: Wipf Maxime <wipf_a@epita.fr>
+Date:   Fri Nov 23 17:02:07 2012 +0100
+    [All] TODO
+
+Author: Wipf Maxime <wipf_a@epita.fr>
+Date:   Fri Nov 23 16:57:47 2012 +0100
+
+Author: Wipf Maxime <wipf_a@epita.fr>
+Date:   Fri Nov 23 16:57:22 2012 +0100
+    [All][Moulinette] Correction of the bugg on check.py
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 23 16:27:41 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 23 16:27:16 2012 +0100
+    [All][v0.8] Builtin echo
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 23 14:20:31 2012 +0100
+    first version of the arithmetic evaluation
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 23 14:18:58 2012 +0100
+    finish working on pipe
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Thu Nov 22 23:14:56 2012 +0100
+    working on the execute pipe, got the fork working put can't get the pipe to send the message~
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 22 20:39:49 2012 +0100
+    fix bug export.c
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 22 20:27:22 2012 +0100
+    exit, cd done
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 22 19:52:58 2012 +0100
+    update builtin : token -> simple cmd
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 22 18:46:31 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 22 18:45:55 2012 +0100
+    Fix : coding style, spaces in end of a line
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 22 18:44:55 2012 +0100
+    Added : ast_printer, really not perfect
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Thu Nov 22 15:07:47 2012 +0100
+    [All][Version 0.8] Modification of builtin.h > buitlin_echo.h for simplier header for buitlins
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Thu Nov 22 15:00:10 2012 +0100
+    [All][Version 0.8] mkdir builtin ; builtin_echo.
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Thu Nov 22 08:55:52 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 21 20:51:19 2012 +0100
+    parameter expansion beginning : not working at all
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 21 20:13:54 2012 +0100
+    begin of builtin : cd done, shopt WIP
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 21 19:03:05 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 18:06:07 2012 +0100
+    added parsing option for the ~- and ~
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 17:44:32 2012 +0100
+    added structure for variables
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 21 17:13:07 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 17:05:15 2012 +0100
+    fix double free + other problems
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 21 16:36:11 2012 +0100
+    Conflicts:
+    	src/lexer/lexer.c
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 21 16:24:55 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 21 16:23:49 2012 +0100
+    change check files to correct names
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 21 14:11:09 2012 +0100
+    fix conflicts
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Tue Nov 27 18:17:12 2012 +0100
+    [READLINE] Fix right and left Arrow
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Mon Nov 26 23:40:38 2012 +0100
+    [READLINE] Work on Ctrl keys
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Mon Nov 26 20:13:45 2012 +0100
+    [READLINE] Right arrow work
+
+Author: Philippe Tranca <philippe.tranca@epita.fr>
+Date:   Mon Nov 26 19:04:12 2012 +0100
+    [READLINE] Added backspace
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sun Nov 25 23:32:55 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Fri Nov 23 00:44:07 2012 +0100
+    Begin of Readline and signal handler
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 13:48:56 2012 +0100
+    fix a problem with the do group where a token was eaten too early
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 11:55:13 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 11:53:43 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 11:48:58 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 11:48:15 2012 +0100
+    version 0.5 working
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 21 10:48:56 2012 +0100
+    change the element operators, now handle -option or +option
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 03:01:17 2012 +0100
+    added the case when the paser ended with a ';'
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 02:46:32 2012 +0100
+    forgot to remove the done token
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 02:29:19 2012 +0100
+    parsing done; going to focus on execution
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 21 00:02:36 2012 +0100
+    parser done: debugging in process
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 20 23:04:23 2012 +0100
+    added new lexer
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 20 20:35:31 2012 +0100
+    lexer : added a default case WORD
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 20 18:49:41 2012 +0100
+    parse element fixed
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 20 16:50:19 2012 +0100
+    parsing the commands inside brackets
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 20 16:30:06 2012 +0100
+    lexer : single quote and backslash added, considered as in a word token
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 20 12:19:47 2012 +0100
+    fixing small bug; still missing one function to parse bracket
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 20 10:05:00 2012 +0100
+    Missing the shell command otherwise parser is done
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 19 23:25:39 2012 +0100
+    still working on the parser no more error but still not working
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Mon Nov 19 22:30:55 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Mon Nov 19 22:30:21 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 19 18:08:11 2012 +0100
+    with latest version
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 19 18:02:24 2012 +0100
+    rebuilding the parser
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 19 17:02:44 2012 +0100
+    lexer : fix leaks in lexSpecial
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 19 16:24:06 2012 +0100
+    lexer : updated static struct to dynamic struct
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 19 14:02:15 2012 +0100
+    rebuilding the parser not done
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 19 12:46:26 2012 +0100
+    added a first value to the char to stop unwanted problem
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 07:21:46 2012 +0100
+    change: main.c
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 07:05:22 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 06:58:10 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 06:57:34 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 06:31:14 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 06:30:54 2012 +0100
+    modified maic.c
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 06:30:23 2012 +0100
+    fixing bug
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 06:11:57 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 06:11:32 2012 +0100
+    fix the problem of the stdin by flushing it
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 06:05:54 2012 +0100
+    Conflicts:
+    	src/lexer/group_lexer.c
+    	src/lexer/lexer.c
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 06:04:05 2012 +0100
+    implementing ast print, need to debug
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 05:19:34 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 05:19:09 2012 +0100
+    still fixing bugs
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 05:18:57 2012 +0100
+    implemented prompt
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 04:49:31 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 04:49:07 2012 +0100
+    debugging
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 04:44:41 2012 +0100
+    change strcpy -> strncpy
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 04:27:44 2012 +0100
+    Fix remove - as operator
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 04:16:49 2012 +0100
+    Fixed : eat_token, delete now the last node
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 04:12:48 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 04:11:52 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 04:06:49 2012 +0100
+    I just want to be free (memory)
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 03:59:45 2012 +0100
+    remove - as operator
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 03:56:22 2012 +0100
+    fix most of the bug
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sun Nov 18 03:52:50 2012 +0100
+    update Doxyfile
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 03:40:10 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 03:38:26 2012 +0100
+    changement *token = ... -> eat_token ...
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sun Nov 18 03:23:48 2012 +0100
+    test suite fixed and also improved Makefile
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sun Nov 18 03:18:34 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sun Nov 18 03:17:45 2012 +0100
+    fixed test check
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sun Nov 18 03:00:20 2012 +0100
+    [All] Delete shlex module
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sun Nov 18 02:08:28 2012 +0100
+    no fix check
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sun Nov 18 02:06:44 2012 +0100
+    [All] Moulinette correction ?
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sun Nov 18 01:42:24 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sun Nov 18 01:41:58 2012 +0100
+    [All] Qui a touché à la moulinette ? ._.
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sun Nov 18 01:27:38 2012 +0100
+    fix bug prefix
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sun Nov 18 01:19:24 2012 +0100
+    update norme, bug
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 01:15:51 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 01:15:24 2012 +0100
+    added macro IS_ASSIGNEMENT_WORD
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 18 01:13:35 2012 +0100
+    fix segfault
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 01:11:26 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sun Nov 18 01:10:55 2012 +0100
+    lexer : checked norm
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sun Nov 18 01:00:26 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sun Nov 18 01:00:11 2012 +0100
+    ??
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sun Nov 18 00:17:56 2012 +0100
+    Fixed all this shit
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 23:33:34 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 23:32:14 2012 +0100
+    trying to fix Makefile
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 23:00:38 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 22:59:51 2012 +0100
+    Added doxygen comment in execution.h and fix comments norm
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 22:48:34 2012 +0100
+    completing doxygen en Makefile
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 22:26:48 2012 +0100
+    fix valentin mistakes
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 22:20:14 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 22:20:00 2012 +0100
+    fix make
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 22:16:18 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 22:13:13 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 22:08:50 2012 +0100
+    check norme
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 21:47:34 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 21:44:07 2012 +0100
+    Norme done
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 21:43:40 2012 +0100
+    FIX: tag of the ast_printer
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 21:26:04 2012 +0100
+    fix simple command execution
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 21:23:36 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 21:22:17 2012 +0100
+    fixed execution of condition in rules
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 21:18:52 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 21:17:36 2012 +0100
+    update branch
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 20:50:56 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 20:48:21 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 20:48:11 2012 +0100
+    [All] option
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 20:47:32 2012 +0100
+    finish working on the rule if
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 20:42:34 2012 +0100
+    work on the main loop
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 20:32:41 2012 +0100
+    [All] option
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 19:20:51 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 19:20:25 2012 +0100
+    Hmm…
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 18:53:38 2012 +0100
+    removing unwanted files
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 18:50:38 2012 +0100
+    update if rule parser
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 18:43:05 2012 +0100
+    Fixed : function ast_print
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 18:24:08 2012 +0100
+    Lexer : added case of '\t'
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 18:07:16 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 18:05:07 2012 +0100
+    Conflicts:
+    	src/ast_printer/ast_printer.c
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 18:02:09 2012 +0100
+    [All] Allignement
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 17:56:20 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 17:55:45 2012 +0100
+    fix parse_cmd
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 17:44:43 2012 +0100
+    fixed creation of .dot
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 17:40:07 2012 +0100
+    added redirection to the header
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 17:20:58 2012 +0100
+    IS_REDIRECTION added
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 17:19:49 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 17:19:11 2012 +0100
+    finish working on pipeline
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 17:18:32 2012 +0100
+    Added doxygen comments in ast_printer and lexer
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 17:16:01 2012 +0100
+    Conflicts:
+    	src/ast/rule.c
+    	src/ast/rule.h
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 17:13:06 2012 +0100
+    work on redirection
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 16:57:32 2012 +0100
+    ast_printer: now print also the rules
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 16:05:59 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 16:00:56 2012 +0100
+    ast_printer : might be ok, need to test
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 16:00:24 2012 +0100
+    [All] Petit bugg moulinette correction
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 15:59:58 2012 +0100
+    [All] Petit bugg moulinette correction
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 15:40:30 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 15:39:54 2012 +0100
+    WIP pipes
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 15:27:05 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 15:24:31 2012 +0100
+    [All] Correction sortie timeout
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 15:19:27 2012 +0100
+    [All] Doute Moulinette version
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 15:14:14 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 15:13:06 2012 +0100
+    [All] Final Moulinette (correction of timeout)
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 15:02:14 2012 +0100
+    change condition for rule from s_list to s_and_or
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 14:32:31 2012 +0100
+    change the function execute_cmd to execute_simple_cmd
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 14:09:33 2012 +0100
+    finish the parsing of the rule for
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 13:21:10 2012 +0100
+    added pipes
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 17 13:19:49 2012 +0100
+    lttle changement ast_printer.c
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 13:13:50 2012 +0100
+    change free_head to eat_token
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 08:03:18 2012 +0100
+    try implementation of pipes
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 06:26:49 2012 +0100
+    update branch
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 06:21:45 2012 +0100
+    completed Makefile
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 06:16:40 2012 +0100
+    fix conflict
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 06:11:41 2012 +0100
+    begin parser_clause
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 03:58:53 2012 +0100
+    parser debug
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 03:45:41 2012 +0100
+    add a make distcheck rule
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 03:07:44 2012 +0100
+    added parser for funcdec
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 03:04:26 2012 +0100
+    update man, parser
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 02:51:24 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 02:50:59 2012 +0100
+    added funcdec in the header
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 01:45:40 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 01:43:03 2012 +0100
+    optimised functions
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sat Nov 17 00:49:56 2012 +0100
+    fixed valentin unwanted files
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Sat Nov 17 00:47:45 2012 +0100
+    finish debug parser
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Sat Nov 17 00:47:41 2012 +0100
+    [All] debut 'make check'
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 17 00:45:58 2012 +0100
+    added Doxygen balises to code
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 16 23:54:59 2012 +0100
+    [All] Mise à jour du TODO
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Fri Nov 16 23:48:55 2012 +0100
+    Updated ast printer (not finished)
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 23:48:39 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 23:48:34 2012 +0100
+    done working on redirection
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 16 23:37:54 2012 +0100
+    [All] Moulinette : correction -e/-select cat2 cat1
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Fri Nov 16 23:36:42 2012 +0100
+    start debug parser
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 23:35:25 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 23:25:49 2012 +0100
+    return the variable instead of 0
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 16 23:18:45 2012 +0100
+    [All] Moulinette correction timeout <pas un float/int>
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 16 23:07:09 2012 +0100
+    [All] Moulinette += bonus color
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 22:48:57 2012 +0100
+    working on the redirection
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 16 22:47:12 2012 +0100
+
+Author: Maxime WIPF <crazadax@MacBook-de-Maxime-WIPF.local>
+Date:   Fri Nov 16 22:42:27 2012 +0100
+    [All] Moulinette mandatory + timeout
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 17:28:06 2012 +0100
+    fixed problem with creating the new struct for the rule for
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 10:01:36 2012 +0100
+    added the here document case
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Fri Nov 16 00:57:05 2012 +0100
+    Done the redirection output and the redirection input
+    Added a variable BAD_REDIRECTION = (void *) -1 in case of error
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 15 20:46:54 2012 +0100
+    grammar : begin rule_if
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 15 20:17:48 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Thu Nov 15 20:16:40 2012 +0100
+    fixed Makefile and configure
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Thu Nov 15 20:16:34 2012 +0100
+    added function to create structure funcdec
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 15 20:05:46 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 15 19:45:14 2012 +0100
+    update parser. TODO : rules
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 15 19:30:53 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Thu Nov 15 19:06:20 2012 +0100
+    - Working on the redirection execution
+    - Fixed coding style for the parser
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 15 18:46:24 2012 +0100
+    changement enum lexer
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 15 18:41:37 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 15 18:41:14 2012 +0100
+    changement aststruct
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Thu Nov 15 16:26:06 2012 +0100
+    parser architecture modification
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Thu Nov 15 12:07:30 2012 +0100
+    starting to work on the execution
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Thu Nov 15 10:17:27 2012 +0100
+    added IS_REDIRECTION macro
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 14 21:36:02 2012 +0100
+    continuation parser, HELP
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 14 20:26:42 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 14 20:26:12 2012 +0100
+    fixed doxyfile comments
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 14 19:17:55 2012 +0100
+    Conflicts:
+    	src/ast/ast.h
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Wed Nov 14 19:13:39 2012 +0100
+    lexer modified : recognize ope/number/;/newline/word
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 14 18:40:56 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 14 18:40:26 2012 +0100
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 14 18:37:40 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 14 18:04:27 2012 +0100
+    Finish adding the exit clauses
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 14 17:50:24 2012 +0100
+    just for debug
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 14 17:36:16 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 14 17:31:31 2012 +0100
+    Added new conditions for exit
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 14 17:08:18 2012 +0100
+    parser until redirection, no functionnal
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Wed Nov 14 15:33:53 2012 +0100
+    avancement parser
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 14 15:29:17 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 14 15:24:09 2012 +0100
+    added a header file which centralized all functions
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 14 15:16:52 2012 +0100
+    makefile ok, need to add check option, but in order for this we need a test suite
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 14 12:02:58 2012 +0100
+    add function to parser command
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Wed Nov 14 01:22:40 2012 +0100
+    added awesome Makefile... with doc rule for the dox generation and also distclean. Need to work on the clean instruction still and on the distcheck rule
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 14 00:02:54 2012 +0100
+    working on the parseur:\nstill got many problems but fixe somes\n-added following parseurs cases:\n  -and or\n  -pipeline
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 13 21:13:38 2012 +0100
+    lexer modified : chamgement in checking operators
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Tue Nov 13 20:54:39 2012 +0100
+    rectification .h + debut parser
+
+Author: Macheret Valentin <macher_v@epita.fr>
+Date:   Tue Nov 13 18:21:54 2012 +0100
+
+Author: valentin macheret <macher_v@pc-macher_v.(none)>
+Date:   Tue Nov 13 18:05:39 2012 +0100
+    2nd update MAN TODO README
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 13 15:15:28 2012 +0100
+    finish different functions for the ast
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 13 14:34:22 2012 +0100
+    finish freeing functions for the rules and the shell command
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Tue Nov 13 13:29:22 2012 +0100
+    Test to push in jimmy branch
+
+Author: valentin macheret <macher_v@pc-macher_v.(none)>
+Date:   Tue Nov 13 12:49:50 2012 +0100
+    update README man
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Tue Nov 13 12:21:46 2012 +0100
+    [WIP] Continuing to add functions for the ast structure
+    still missing the shell_cmd functions and not yet tested
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 12 23:50:32 2012 +0100
+    [WIP] added functions to work with the structure
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 12 20:39:20 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 20:39:05 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 12 20:36:15 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 12 20:35:33 2012 +0100
+    ast structure
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 20:33:45 2012 +0100
+    added structure of ast_printer (does not work for now)
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 19:26:17 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 19:25:48 2012 +0100
+    modified lexer : recognizes parenthesis
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 19:24:37 2012 +0100
+    modified lexer : recognizes all parenthesis
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 19:06:37 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 19:06:11 2012 +0100
+    modified lexer : recognize ; and \n
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Mon Nov 12 18:49:43 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Mon Nov 12 18:47:20 2012 +0100
+    Modified .c name files, improved help and corrected a segfautlt on the readline
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 18:28:40 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Mon Nov 12 18:27:47 2012 +0100
+    lexer modified : recognizes ; and \n
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Mon Nov 12 15:46:10 2012 +0100
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Mon Nov 12 15:41:36 2012 +0100
+    added command evaluation but not builtin commands
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 12 10:32:10 2012 +0100
+    added a $ sign at the end of PS1
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Mon Nov 12 08:49:10 2012 +0100
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Sun Nov 11 12:44:45 2012 +0100
+    Removed unwanted file and added the prompt, the goblal variable will change later
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 10 18:14:34 2012 +0100
+    added lexer (using strtok_r)
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Sat Nov 10 17:48:38 2012 +0100
+    Added a lexer (using strtok_r)
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 10 15:46:17 2012 +0100
+    Beginning of the Makefile and of the parse options function
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Sat Nov 10 15:45:16 2012 +0100
+    Beginning of the Makefile and of the parse options function
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Fri Nov 9 23:31:43 2012 +0100
+    work on exec functions
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Fri Nov 16 18:59:54 2012 +0100
+    Conflicts:
+    	src/parser/parser.c
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Fri Nov 16 18:56:57 2012 +0100
+    for function completed
+
+Author: Tranca Philippe <philippe.tranca@epita.fr>
+Date:   Fri Nov 16 16:40:24 2012 +0100
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 8 18:07:24 2012 +0100
+    man added / read todo report modified
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 8 15:44:16 2012 +0100
+    report and slides added
+
+Author: jimmy yeh <yeh_j@epita.fr>
+Date:   Thu Nov 8 15:04:49 2012 +0100
+    AUTHORS added
+
+Author: Pierrat Johann <pierra_j@epita.fr>
+Date:   Wed Nov 7 18:56:49 2012 +0100

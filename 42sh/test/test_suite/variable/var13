@@ -1,0 +1,1 @@
+echo $a; a=b; echo $a

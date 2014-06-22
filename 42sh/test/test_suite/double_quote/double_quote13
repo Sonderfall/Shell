@@ -1,0 +1,1 @@
+aa=bb; echo "$aa \b \$$"

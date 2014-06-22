@@ -1,0 +1,199 @@
+.TH 42sh 1 "6 November 2012 - Update 1 December 2012"
+.SH NAME
+42sh - EPITA Forty Two (42) SHell
+.SH SYNOPSIS
+42sh [options] [file]
+.SH COPYRIGHT
+ \fB42sh\fP is Copyright (C) 2012 by the Epita, school for computing engineers.
+.SH DESCRIPTION
+\fB42sh\fP is a shell created by five engineers from the Epita highschool. The current manual page of the 42sh will be complete and improve. 42sh is intended to be comformant to the Shell Command Language. The 42sh will include all entities needed in order to be an useful and userfriendly shell.
+.SS v0.1
+This preview version includes only the report about the request for purposal of the project, the man page and presentation slides.
+.SS v0.5
+This first released version includes updates and begin of the \fB42sh\fP as : an option parser, a shell parser, an AST builder, an AST printer and a begining of grammar execution.
+.SS v0.8
+This second version includes updates from previous version and new devices as a readline, builtins, a better prompt, handling of variables, tilde expansion and quoting.
+.SS v0.9
+This version includes fixes from previous versions.
+.SS v1.0
+Current version of the \fB42sh\fP. Add of new functionalities and complete fixes.
+.SH OPTIONS
+.TP
+\fB-c <command>\fP	If the -c option is presents, then commands are read from command. If there are arguments after the command, they are assgined to the positional parameters, starting with \fB$0\fP
+.TP
+\fB[-+]O [shopt_option]\fP	If shopt_option is presents, -O sets the value of that option; +O unsets it. If shopt_option is not supplied, the names and values of the shell value options accepted by \fBshopt\fP are printed on the standart output.
+.TP
+\fB--norc\fP This option desactivates the ressource reader.
+.TP
+\fB--ast-print\fP This option activate the ast printer.
+.TP
+\fB--version\fP	This option prints the current version of the 42sh.
+.SH DEFINITIONS
+Some words will frequently used throughout this manual page. There are :
+.SS Builtin
+A command that is implemented internally by the shell itself, rather than by an executable programme somewhere in the file system.
+.SS Exit status
+The value returned by a command to its caller. This value is restricted to 8 bits, the maximum value is 255 so.
+.SS Filename
+It's a string of characters used to identify a file.
+.SS Operator
+A control operator or a redirection operator.
+.SS Signal
+A mechanism by which a process may be notified by the kernel of an event occuring in the system.
+.SS Blank
+A whitespace or tabulation.
+.SS Token
+A set of characters see as only one unit by the 42sh.
+.SS Name
+A token composed only by alphanumeric characters and underscores.
+.SH RESERVED WORD
+\fB42sh\fP includes reserved words that have a special meaning. Following words are reserved to the shell :
+
+\fB! { }  case esac do done if then fi else elif for  while in [[ ]]\fP
+.SH SHELL GRAMMAR
+.SS Lists
+A list is a sequence of one or more pipelines. These pipelines are separated by an operator, such as \fB;\fP, \fB&\fP, \fB&&\fP, \fB||\fP. Lists can be terminated by ;, & or \fB<newline>\fP.
+.SS Pipelines
+A pipeline is a sequence of one or more commands. These commands can be separated by the operator \fB|\fP. Pipelines must respect the format :
+
+\fB ['!'] command ('|' ('\n')* command)*\fP
+.SS Commands
+A command can be a \fBsimple command\fP, a \fBshell command\fP or a \fBfunction declaration\fP.
+.SS Simple Commands
+A simple command is a sequence of variable assignments followed by a blank The first word specifies the executed command. A simple command can be the call of binary or builtins. Include builtins :
+.TP
+\fBcd [dest]\fP
+
+Change the working directory to dest, or to the home directory if no destination is not given.
+
+.TP
+\fBexport [-n] [-p] [name[=value]]\fP
+
+Set an environment variable. Mark each name to be passed to child processes in the environment. If no names are supplied, or if the -p option is given, a list of exported names is displayed.
+
+.TP
+\fBpwd\fP
+
+Print the absolute pathname of the current working directory.
+.TP
+\fBexit [n]\fP
+
+Ends the42sh with the n value. If no value is specify, ends the 42sh with 0 for return value.
+.TP
+\fBecho\fP
+
+Display a line of text.
+.TP
+\fBsource filename\fP
+
+Evaluate a file or resource as a Tcl script. This command takes the content of the file and interprete it as a script text.
+.SS Shell Commands
+A shell command can be the call of \fBrule{for, while, if, until, case}\fP and list of command between \fB()\fP or \fB{}\fP.
+.SS Function Declaration
+A function declaration must respects the format :
+
+\fB ['function'] WORD '(' ')' ('\\n')* shell_command\fP
+.SS Rules
+Rules are useful to realise repeated commands or repeated operations. They are call from as a shell command.
+.TP 
+\fBFor rule\fP
+
+The command after a \fBfor rule\fP call will be repeat until the final condition is not reached. A \fBfor rule\fP must respects the format :
+
+\fB 'for' WORD ('\\n')* [in (WORD)* (';'|'\\n') ('\\n')*] do_group\fP
+.TP 
+\fBWhile rule\fP
+
+The command after a \fBwhile rule\fP call will be repeat while the condition is not reached. A \fBwhile rule\fP must respects the format :
+
+\fB 'while' Lists do_group \fP
+.TP 
+\fBUntil rule\fP
+
+The command after a \fBuntil rule\fP call will be repeat until the condition is not reached. A \fBuntil rule\fP must respects the format :
+
+\fB 'until' Lists do_group \fP
+.TP 
+\fBIf rule\fP
+
+The command after a \fBif rule\fP call will be executed only if the condition is reached. A \fBif rule\fP must respects the format :
+
+\fB 'if' List 'then' List [else_clause] 'fi'\fP
+
+\fBElse clause\fP are call when the previous condition was wrong. \fBElse clause\fP must respects the format :
+
+\fB'else Lists\fP or \fB'elif' Lists 'then' Lists [else_clause]\fP
+.SH QUOTING
+.SS Simple quote
+Enclosing characters in single quotes (‘'’) preserves the literal value of each character within the quotes. A single quote may not occur between single quotes, even when preceded by a backslash.
+.SS Double quote
+Enclosing characters in double quotes (‘"’) preserves the literal value of all characters within the quotes, with the exception of ‘$’, ‘`’, ‘\\’, and, when history expansion is enabled, ‘!’. The characters ‘$’ and ‘`’ retain their special meaning within double quotes. The backslash retains its special meaning only when followed by one of the following characters: ‘$’, ‘`’, ‘"’, ‘\\’, or newline. Within double quotes, backslashes that are followed by one of these characters are removed. Backslashes preceding characters without a special meaning are left unmodified. A double quote may be quoted within double quotes by preceding it with a backslash.
+.SH PROMPT
+The advanced prompt of the 42sh can be handled and managed. The PS1 and PS2 can be changed with those following options :
+.TP
+\fB\\d\fP Add the date in "Weekday Montn Date" format.
+.TP
+\fB\\D\fP Pass the format to strtime(3).
+.TP
+\fB\\h\fP The hostname up to the first '.'.
+.TP
+\fB\\H\fP The hostname.
+.TP
+\fB\\n\fP New line.
+.TP
+\fB\\u\fP The username of the current user.
+.TP
+\fB\\w\fP The current working directory.
+.TP
+\fB\\W\fP The basename of the current working directory.
+.TP
+\fB\\\\\fP Backslash.
+.SH REDIRECTION
+Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. Redirection may also be used to open and close files for the current shell execution environment. The following redirection operators may precede or appear anywhere within a simple command or may follow a command. Redirections are processed in the order they appear, from left to right.
+.SS Redirection input
+Redirection of input causes the file whose name results from the expansion of word to be opened for reading on file descriptor n, or the standard input (file descriptor 0) if n is not specified.
+
+The general format for redirecting input is:
+
+[n]<word
+.SS Redirection ouput
+Redirection of output causes the file whose name results from the expansion of word to be opened for writing on file descriptor n, or the standard output (file descriptor 1) if n is not specified. If the file does not exist it is created; if it does exist it is truncated to zero size.
+
+The general format for redirecting output is:
+
+[n]>[|]word
+.SH 42SH VARIABLES
+.SS CDPATH
+A colon-separated list of directories used as a search path for the cd builtin command.
+.SS HOME
+The current user’s home directory; the default for the cd builtin command. The value of this variable is also used by tilde expansion.
+.SS PWD
+The absolute path to the current working directory.
+.SS IFS
+A list of characters that separate fields; used when the shell splits words as part of expansion.
+.SS MAIL
+If this parameter is set to a filename or directory name and the MAILPATH variable is not set, Bash informs the user of the arrival of mail in the specified file or Maildir-format directory.
+.SS MAILPATH
+A colon-separated list of filenames which the shell periodically checks for new mail. Each list entry can specify the message that is printed when new mail arrives in the mail file by separating the file name from the message with a ‘?’. 
+.SS OPTARG
+The value of the last option argument processed by the getopts builtin.
+.SS OPTIND
+The index of the last option argument processed by the getopts builtin.
+.SS PATH
+A colon-separated list of directories in which the shell looks for commands. A zero-length (null) directory name in the value of PATH indicates the current directory. A null directory name may appear as two adjacent colons, or as an initial or trailing colon.
+.SS PS1
+The primary prompt string. The default value is ‘\\s-\\v\\$ ’. See Printing a Prompt, for the complete list of escape sequences that are expanded before PS1 is displayed.
+.SS PS2
+The secondary prompt string. The default value is ‘> ’.
+.SH AUTHORS
+\fB42sh\fP group members are :
+.TP
+	\fBpierra_j\fP	<pierra_j@epita.fr>
+.TP
+	\fBmacher_v\fP	<macher_v@epita.fr>
+.TP
+	\fBtranca_p\fP	<tranca_p@epita.fr>
+.TP
+	\fByeh_j\fP	<yeh_j@epita.fr>
+.TP
+	\fBwipf_a\fP	<wipf_a@epita.fr>

@@ -1,0 +1,301 @@
+
+
+TODO LIST ABOUT 42SH V1.0 PROJECT
+---------------------------------
+
+[X] Makefile.
+
+   [X] Tutorial Cmake.
+
+   [X] Basic Makefile.
+
+   [X] Useful Makefile.
+
+[X] Option parser.
+
+   [X] -c <command> command.
+
+   [X] [-+]O command.
+
+   [X] --norc command.
+
+   [X] --ast-print command.
+
+   [X] --version command.
+
+[X] Prompt.
+
+   [X] PS1.
+
+   [X] PS2.
+
+[X] Shell parser.
+
+   [X] Lexer.
+
+      [X] Create token.
+
+      [X] Handle \n
+
+      [X] Handle ( )
+
+      [X] Handle { }
+
+      [X] Handle ;
+
+      [X] Handle [ ]\
+
+      [/] Handle $
+
+      [/] Handle " "
+
+      [X] Handle ' '
+
+      [X] Handle \
+
+   [X] Write shell grammar.
+
+      [X] List.
+
+      [X] and_or.
+
+      [X] pipeline.
+
+      [X] command.
+
+      [X] simple_command.
+
+      [X] shell_command.
+
+      [X] funcdec.
+
+      [X] redirection.
+
+      [X] prefix.
+
+      [X] element.
+
+      [X] compound_list.
+
+      [X] rules.
+
+      	 [X] for.
+
+	 [X] while.
+
+	 [X] until.
+
+	 [X] case.
+
+	 [X] if.
+
+	 [X] else_clause.
+
+	 [X] case_clause.
+
+	 [X] case_item.
+
+	 [X] do_group.
+
+   [X] AST structure.
+
+   [X] Check grammar from token sequence.
+
+   [X] Build AST.
+
+[X] AST printer.
+
+   [X] Parse AST.
+
+   [X] Print AST.
+
+[X] Execution.
+
+[X] Moulinette.
+
+   [X] Tutorial Python
+
+   [X] -c and -categories
+
+   [X] -e <category>+ and -select <category>+
+
+   [X] -f and -final
+
+   [X] -n and -number
+
+   [X] -a and -all
+
+   [X] BONUS : -t <time> and -timeout <time>
+
+   [X] BONUS : color
+
+   [X] OPTIONAL BONUS : Check man page
+
+   [X] 10 tests
+
+   [X] 50 tests
+
+   [X] 100 tests
+
+   [X] 200 tests
+
+   [] 500 tests
+
+   [] 1000 tests
+
+[X] Tilde expansion
+
+   [X] "~"
+
+   [X] "~-"
+
+   [] "~+"
+
+[] Builtin commands
+
+   [X] exit
+
+   [X] cd
+
+   [] shopt
+   
+   [X] export
+
+   [/] alias
+
+   [] unalias
+
+   [X] echo
+
+   [] continue
+
+   [] break
+
+   [X] source
+
+[] Advanced prompt
+
+   [] \a
+
+   [X] \d
+
+   [X] \D
+
+   [] \e
+
+   [X] \h
+
+   [X] \H
+
+   [X] \n
+
+   [] \r
+
+   [] \s
+
+   [X] \u
+
+   [X] \w
+
+   [X] \W
+
+   [] \$
+
+   [] \nnn
+
+   [X] \\
+
+   [] \[
+
+   [] \]
+
+[] Variables
+
+   [] $@
+
+   [] $*
+
+   [X] $?
+
+   [X] $$
+
+   [] $1 ... $n
+
+   [] $#
+
+   [X] $RANDOM
+
+   [] $UID
+
+   [X] $OLDPWD
+
+   [] $SHELLOPTS
+
+   [] $IFS
+
+[/] Quoting
+
+   [X] \
+
+   [X] '
+
+   [/] "
+
+[] Arithmetic expansion
+
+   [] $(())
+
+   [] -
+
+   [] +
+
+   [] *
+
+   [] /
+
+   [] **
+
+   [] &
+
+   [] |
+
+   [] ^
+
+   [] &&
+
+   [] ||
+
+   [] !
+
+   [] ~
+
+[X] Readline
+
+   [X] left and CTRL-b
+
+   [X] right and CTRL-f
+
+   [] up and CTRL-p
+
+   [] down and CTRL-n
+
+   [] CTRL-a
+
+   [] CTRL-e
+
+   [] CTRL-d
+
+   [] CTRL-k
+
+   [] CTRL-l
+
+[] Aliases
+
+[X] Update Man.
+
+[X] Write README.
+
+[X] Write AUTHORS.
+
+----------------------------------
+END OF TODO LIST.

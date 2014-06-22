@@ -1,0 +1,1 @@
+echo ${dd=dd_is_a_var}; echo $dd

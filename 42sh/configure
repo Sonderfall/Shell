@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ $# -gt 0 ] && [ $1 = "--with-debug" ] ; then
+  mkdir -p $PWD/build/
+  cd build && cmake -D CMAKE_C_FLAGS="-Wall -Werror -Wextra -std=c99 \
+  -pedantic -lncurses -lm -g -ggdb" ..
+elif [ $# -gt 0 ] && [ $1 = "--help" ] ; then
+  echo ""
+  echo "- type \"./configure --with-debug\" to add debug flags when compiling"
+  echo "- type \"./configure\" if you just want to compile without debug flags"
+  echo ""
+else
+  mkdir -p $PWD/build/
+  cd build && cmake -D CMAKE_C_FLAGS="-lncurses -Wall -Werror -Wextra -std=c99\
+  -pedantic -ltcl8.5 -lm" ..
+fi

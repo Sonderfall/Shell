@@ -1,0 +1,1 @@
+aa=bb; echo "value asdl \$ $$ ${aa-abc}"

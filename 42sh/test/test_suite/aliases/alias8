@@ -1,0 +1,1 @@
+alias toto=bob; alias bob=ls; toto

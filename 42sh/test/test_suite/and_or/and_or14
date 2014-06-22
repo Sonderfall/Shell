@@ -1,0 +1,3 @@
+echo $PS1 && echo "
+
+"

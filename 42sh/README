@@ -1,0 +1,123 @@
+
+
+	 42SH v1.0 IT PROJECT, MADE BY :
+	 -------------------------------
+
+	*Johann Pierrat		<pierra_j>
+	*Valentin Macheret	<macher_v>
+	*Philippe Tranca	<tranca_p>
+	*Jimmy Yeh		<yeh_j>
+	*Maxime Wipf		<wipf_a>
+
+The 42sh project is the main IT project during the C/UNIX periode of the
+Epita scolarity. It aim is to combinate all knowladge about technologies
+and languages from a team of five students.
+Basically, the aim of 42sh project is to create a shell (as bash, tcsh or zsh)
+ables to help the user to communicate with the kernel.
+
+-------------------------------------------------
+		VERSION 0.9
+
+This version 0.9 includes only fixes of bug and memory leaks from previous versions.
+
+--------------------------------------------------
+		VERSION 0.8
+
+For the v0.8 the includes a little more advanced functionnalities compared to the previous version.
+       - An advanced prompt
+       - A Readline
+       - Some builtins with their option
+       - Implementation of Variables
+       - Implementation of quoting
+       - Implementation of the tilde expansion
+
+--------------------------------------------------
+		VERSION 0.5
+
+This version includes basic needs and devices in order to do the 42sh as :
+     -A prompt (with PS1 and PS2)
+     -An option parser
+     -A shell lexer
+     -A shell parser
+     -An AST builder
+     -An AST printer
+
+The current root directory contains some files and sub-directory about
+the 42sh project :
+
+.
+├── AUTHORS
+├── CMakeLists.txt
+├── configure
+├── doc
+│   ├── 42sh.man
+│   ├── Doxyfile
+│   ├── report.pdf
+│   └── slides.pdf
+├── Makefile
+├── README
+├── src
+│   ├── ast
+│   │   ├── free_long_struct.c
+│   │   ├── free_rule.c
+│   │   ├── free_struct.c
+│   │   ├── list_add.c
+│   │   ├── rule.c
+│   │   ├── rule_case.c
+│   │   ├── shell_cmd.c
+│   │   ├── struct_create.c
+│   │   ├── union.c
+│   ├── ast_printer
+│   │   ├── ast_printer.c
+│   │   ├── read_sh_cmd.c
+│   │   ├── read_tree.c
+│   ├── builtins
+│   │   ├── builtin_alias.c
+│   │   ├── builtin_cd.c
+│   │   ├── builtin_echo.c
+│   │   ├── builtin_exit.c
+│   │   ├── builtin_export.c
+│   │   ├── builtins.c
+│   │   ├── builtin_shopt.c
+│   │   ├── builtin_source.c
+│   ├── evalexpr
+│   │   ├── evalexpr.c
+│   ├── execution
+│   │   ├── execute_case.c
+│   │   ├── execute_cmd.c
+│   │   ├── execute_list.c
+│   │   ├── execute_pipe.c
+│   │   ├── execute_redirect.c
+│   │   ├── execute_rule.c
+│   │   └── execution.h
+│   ├── lexer
+│   │   ├── group_lexer.c
+│   │   ├── lexer.c
+│   │   ├── list_token.c
+│   │   ├── quoting.c
+│   ├── main
+│   │   ├── main.c
+│   │   ├── main.h
+│   │   ├── parser_options.c
+│   ├── parser
+│   │   ├── parser_bracket.c
+│   │   ├── parser_case.c
+│   │   ├── parser_command.c
+│   │   ├── parser_element.c
+│   │   ├── parser_error.c
+│   │   ├── parser_global.c
+│   │   ├── parser_redirection.c
+│   │   ├── parser_rules.c
+│   │   └── parser_rules_for.c
+│   ├── prompt
+│   │   ├── prompt.c
+│   ├── tilde
+│   │   ├── tilde.c
+│   └── variable
+│       ├── variable.c
+├── test
+│   ├── checkbashzsh.py
+│   ├── check.man
+│   ├── check.py
+│   └── test_suite
+└── TODO
