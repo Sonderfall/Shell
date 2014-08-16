@@ -19,7 +19,8 @@ This version 0.9 includes only fixes of bug and memory leaks from previous versi
 
 ### Version 0.8 ###
 
-For the v0.8 the includes a little more advanced functionnalities compared to the previous version.
+For the v0.8 the includes a little more advanced functionnalities compared to the previous version :
+
 * An advanced prompt
 * A Readline
 * Some builtins with their option
@@ -30,6 +31,7 @@ For the v0.8 the includes a little more advanced functionnalities compared to th
 ### Version 0.5 ###
 
 This version includes basic needs and devices in order to do the 42sh as :
+
 * A prompt (with PS1 and PS2)
 * An option parser
 * A shell lexer
